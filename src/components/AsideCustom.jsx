@@ -32,7 +32,7 @@ export default function AsideCustom() {
         setIsGenresDropdownOpen((prevState) => !prevState);
     };
 
-    // Chiudi tutti i dropdown
+    // Chiudi tutti i dropdown ok
     const closeDropdown = () => {
         setIsStoresDropdownOpen(false);
         setIsPlatformsDropdownOpen(false);
