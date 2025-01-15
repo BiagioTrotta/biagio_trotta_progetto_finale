@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'FlamaSemicond';
+    src: url('./FlamaSemicond-Basic.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FlamaSemicond';
+    src: url('./FlamaSemicond-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FlamaSemicond';
+    src: url('./FlamaSemicond-Ultralight.ttf') format('truetype');
+    font-weight: 200; /* UltraLight */
+    font-style: normal;
+}

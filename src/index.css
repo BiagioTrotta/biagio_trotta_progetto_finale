@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* App.css */
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+body {
+  font-family: 'FlamaSemicond', sans-serif !important;
+}
+
+/* Stile della scrollbar */
+.dropdown-scroll::-webkit-scrollbar {
+  width: 10px;
+  /* Larghezza della scrollbar */
+  background-color: #2d3748;
+  /* Colore di sfondo (grigio scuro) */
+  border-radius: 4px;
+}
+
+/* Stile del thumb (parte che si muove) */
+.dropdown-scroll::-webkit-scrollbar-thumb {
+  background-color: #4a5568;
+  /* Colore del thumb (grigio medio) */
+  border-radius: 4px;
+  /* Arrotondamento */
+  border: 2px solid #2d3748;
+  /* Bordo per creare un effetto di distacco */
+}
+
+/* Stile del thumb quando viene hoverato */
+.dropdown-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #718096;
+  /* Cambia colore su hover */
+}
+
+/* Stile del thumb quando è attivo (cliccato) */
+.dropdown-scroll::-webkit-scrollbar-thumb:active {
+  background-color: #a0aec0;
+  /* Colore più chiaro quando attivo */
+}
+
+/* Applicato al contenitore dei messaggi */
+.message-content {
+  word-wrap: break-word;
+  /* Impedisce che il testo esca dal contenitore */
+  overflow-wrap: break-word;
+  /* Impedisce che il testo esca dal contenitore */
+  max-width: 100%;
+  /* Assicurati che il contenitore non vada oltre la larghezza */
+  /* Spezza le parole troppo lunghe */
+  word-break: break-all
+}
