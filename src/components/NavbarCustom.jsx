@@ -136,7 +136,7 @@ export default function NavbarCustom() {
                             <Link to="/">
                                 <img
                                     className="h-8 w-auto"
-                                    src='/logo.svg'
+                                    src='https://res.cloudinary.com/doyfjbmhk/image/upload/v1736944312/ufo-svgrepo-com_1_i5lsjn.svg'
                                     alt="Your Company"
                                 />
                             </Link>
