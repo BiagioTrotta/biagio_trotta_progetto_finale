@@ -39,4 +39,4 @@ Ho definito i seguenti dati nel contesto dell'applicazione:
    - Include informazioni sull'utente autenticato, funzioni di login/logout e registrazione.
 
 ## Deployment
-L'applicazione non è ancora stata pubblicata.
+biagio-trotta-progetto-finale.vercel.app
